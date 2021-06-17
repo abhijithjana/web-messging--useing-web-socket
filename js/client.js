@@ -20,7 +20,7 @@ chat.addEventListener("submit", (e) => {
   e.preventDefault()
   let msg = chat.msg.value
   socket.emit("message outgoing", { sid: socket.id, msg: msg })
-  appendMessage(msg, "outgoing")
+  appendMessage(msg, "incoming")
   msg = ""
 })
 
