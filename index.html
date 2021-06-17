@@ -4,28 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Batte</title>
-    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/client.js"></script>
+    <title>Chat</title>
+    <script defer src="http://localhost:3238/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/client.js"></script>
 </head>
 <body>
     <nav>
-        <img src="conversation.png">
+        <img src="./public/conversation.png">
     </nav>
-    <div class="container">
-        <div class="message left">how are you bro</div>
-        <div class="message right">i am fine</div>
-
-
-       
-    
+    <div class="messages">
+        <!-- <div class="message outgoing">how are you bro</div> -->
+        <!-- <div class="message incoming">i am fine</div> -->
     </div>
     <div class="send">
         <form action="#" id="sendMessage">
-            <input type="text" id="messageInput">
-            <input type="submit" id="btn">
+            <input type="text" name="msg" id="messageInput">
+        <span class="buttonHolder">
+            <input type="submit" class="button tick">
         </form>
+        
     </div>
     
 </body>
