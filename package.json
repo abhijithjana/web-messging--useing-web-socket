@@ -1,0 +1,29 @@
+{
+  "name": "web-messging--useing-web-socket",
+  "version": "1.0.0",
+  "description": "A Chatting Bot",
+  "main": "index.js",
+  "dependencies": {
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nasfame/web-messging--useing-web-socket.git"
+  },
+  "keywords": [
+    "Chatbot"
+  ],
+  "author": "Hiro,Abhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nasfame/web-messging--useing-web-socket/issues"
+  },
+  "homepage": "https://github.com/Nasfame/web-messging--useing-web-socket#readme"
+}
